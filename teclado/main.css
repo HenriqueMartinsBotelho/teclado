@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-shadow: 1px 1px 1px none;
+    border: none;
+    outline:none;
+    list-style-type:none;
+    }
+
+
+body{
+    background-color: #d6c7c7;
+}
+
+
+#entrada{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 3px 3px #545857;
+    width: 95%;
+    height: 150px;
+    font-size: 20px;
+    outline: none;
+    margin: auto;
+    margin-top: 10px;
+    /* font-family: inherit; */
+    /* font-size: inherit; */
+    
+}
+
+
+.teclado{
+    width: 90%;
+    /* border: 1px solid; */
+    line-height: 1.9;
+    resize: both;
+    overflow: auto;
+    background-color: #CDE0DC;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 5px 3px 3px #545857;
+
+}
+
+input.letrasBotoes {
+	color: black;
+    /* font-family: "Times New Roman", Times, serif; */
+	font-size: 16px;
+	text-align: center;
+	height:27px;
+	width:27px;
+	padding:0;
+	margin:0;
+	float:left;
+    outline: none;
+    background-color: #CDE0DC;
+}
+
+#oito{
+    height:27px;
+	width:31px;
+}
+
